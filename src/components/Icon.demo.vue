@@ -2,16 +2,16 @@
 常规使用
 </demo>
 <template>
-  <div>
-    <Icon name="over" style="margin-right: 10px;"></Icon>
-    <Icon name="menu-manage" style="margin-right: 10px;"></Icon>
-    <Icon name="link" style="margin-right: 10px;"></Icon>
-    <Icon name="cancel" style="margin-right: 10px;"></Icon>
-    <Icon name="daogang" style="margin-right: 10px;"></Icon>
-    <Icon name="yuyin" style="margin-right: 10px;"></Icon>
-    <Icon name="manager" style="margin-right: 10px;"></Icon>
-    <Icon name="log" style="margin-right: 10px;"></Icon>
-    <Icon name="warning" style="margin-right: 10px;"></Icon>
+  <div class="icons">
+    <Icon name="over"></Icon>
+    <Icon name="menu-manage"></Icon>
+    <Icon name="link"></Icon>
+    <Icon name="cancel"></Icon>
+    <Icon name="daogang"></Icon>
+    <Icon name="yuyin"></Icon>
+    <Icon name="manager"></Icon>
+    <Icon name="log"></Icon>
+    <Icon name="warning"></Icon>
     <Icon name="search"></Icon>
   </div>
 </template>
@@ -25,3 +25,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.icons {
+  svg {
+    margin-right: 10px
+  }
+}
+</style>

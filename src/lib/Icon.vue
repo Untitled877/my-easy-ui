@@ -1,9 +1,7 @@
 <template>
-  <span class="easy-icon-wrapper">
-    <svg class="easy-icon" aria-hidden="true">
-      <use :xlink:href="`#icon-${name}`"></use>
-    </svg>
-  </span>
+  <svg class="easy-icon" aria-hidden="true">
+    <use :xlink:href="`#icon-${name}`"></use>
+  </svg>
 </template>
 
 <script lang="ts">
@@ -18,16 +16,10 @@ export default {
 </script>
 
 <style lang="scss">
-.easy-icon-wrapper {
+.easy-icon {
   width: 1.5em;
   height: 1.5em;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  .easy-icon {
-    fill: currentColor;
-    width: 100%;
-    height: 100%;
-  }
+  fill: currentColor;
 }
+
 </style>
