@@ -60,6 +60,9 @@ $h2: $h - 4px;
       }
     }
   }
+  &[disabled] {
+    cursor: not-allowed;
+  }
 }
 </style>
 
