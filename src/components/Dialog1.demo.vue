@@ -3,7 +3,7 @@
 </demo>
 <template>
   <div>
-    <Button @click="toggle">toggle</Button>
+    <Button theme="main" @click="toggle">toggle</Button>
     <Dialog v-model:visible="x" :closeOnClickOverlay="false" :ok="f1" :cancel="f2">
       <template v-slot:content>
         <strong>第一行</strong>

@@ -3,7 +3,7 @@
 </demo>
 <template>
   <div>
-    <Button @click="showDialog">打开对话框</Button>
+    <Button theme="main" @click="showDialog">打开对话框</Button>
   </div>
 </template>
 
